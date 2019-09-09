@@ -17,3 +17,68 @@ BERT-based Biomedical Text Summarizer
      - NUMBER_OF_CLUSTERS specifies the number of final clusters in the clustering step.
    
 8. After finishing the summarization process, the summary can be found in the OUTPUT directory already available with the summarizer. 
+
+Final evaluation results
+
+<table>
+     <tr>
+          <td></td>
+          <td>ROUGE-1</td>
+          <td>ROUGE-2</td>
+     </tr>
+     <tr>
+          <td>BERT-based summarizer (BERT-large)</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>BERT-based summarizer (BioBERT-pubmed+pmc)</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>BERT-based summarizer (BioBERT-pubmed)</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>CIBS biomedical summarizer</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>BERT-based summarizer (BioBERT-pmc)</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>Bayesian biomedical summarizer</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>BERT-based summarizer (BERT-base)</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>SUMMA</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>TexLexAn</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>Lead baseline</td>
+          <td></td>
+          <td></td>
+     </tr>
+     <tr>
+          <td>Random baseline</td>
+          <td></td>
+          <td></td>
+     </tr>
+</table>
