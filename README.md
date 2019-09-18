@@ -9,9 +9,7 @@ BERT-based Biomedical Text Summarizer
 4. Download a BERT pretrained model from https://github.com/google-research/bert or a BioBERT pretrained model from https://github.com/naver/biobert-pretrained, and copy the files to the BERT directory already available with the summarizer.
 5. Copy your input document (preferably a txt file) to the INPUT directory already available with the summarizer.
 6. Run the following script:
-
-     python Summarizer.py -i INPUT_FILE_NAME -o OUTPUT_FILE_NAME -c COMPRESSION_RATE -k NUMBER_OF_CLUSTERS
-     
+     - python Summarizer.py -i INPUT_FILE_NAME -o OUTPUT_FILE_NAME -c COMPRESSION_RATE -k NUMBER_OF_CLUSTERS
 7. Four parameters must be specified when running the script:
      - INPUT_FILE_NAME is the name of input file already copied to the INPUT directory.
      - OUTPUT_FILE_NAME is the name of output file containing the summary that will be created in the OUTPUT directory.
