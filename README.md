@@ -19,6 +19,11 @@ BERT-based Biomedical Text Summarizer
 8. After finishing the summarization process, the summary can be found in the OUTPUT directory already available with the summarizer. 
 
 <hr>
+<b>Example</b>
+<br>
+The following script uses the file Input.txt as the input, runs the summarizer with a compression rate of 30 percent and a final cluster number of 4, and finally stores the summary in the file Output.txt: 
+     - python Summarizer.py -i Input.tx -o Output.txt -c 0.3 -k 4
+<hr>
 <b>Final evaluation results</b>
 <br>
 <table>
